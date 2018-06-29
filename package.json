@@ -1,0 +1,32 @@
+{
+  "name": "min-jquery",
+  "version": "1.0.0",
+  "description": "a part of JQuery",
+  "main": "min-jquery.js",
+  "scripts": {
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yitengyu/min-jquery.git"
+  },
+  "keywords": [
+    "JQuery",
+    "javaScript",
+    "DOM"
+  ],
+  "author": "ytyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yitengyu/min-jquery/issues"
+  },
+  "homepage": "https://github.com/Yitengyu/min-jquery#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.13.0",
+    "webpack-command": "^0.3.1"
+  },
+  "dependencies": {}
+}
