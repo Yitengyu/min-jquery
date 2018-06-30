@@ -28,6 +28,16 @@ So apart from V8, what else makes up Node.js ?
 
 ![nodejs-architecture](./resources/nodejs-architecture.jpg)
 
+> **libuv** (Unicorn Velociraptor Library) is a multi-platform C library that provides support for [asynchronous I/O](https://www.wikiwand.com/en/Asynchronous_I/O) based on [event loops](https://www.wikiwand.com/en/Event_loop).
+
+
+
+### Why Asynchronous I/O and Event Loop ?
+
+### How to use Node.js ?
+
+### About NPM
+
 
 
 

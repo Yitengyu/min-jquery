@@ -1,4 +1,14 @@
-## Webpack
+## webpack
+
+### Definition 
+
+> At its core, **webpack** is a ***static module bundler*** for modern JavaScript applications. When webpack processes your application, it internally builds a *dependency graph* which maps every module your project needs and generates one or more *bundles*.
+
+**static**: You need to bundle your resources before using them rather than bundle modules at runtime.
+
+**module**: [modules-ancient](./basic/modules-ancient), [modules-modern][./basic/modules-modern]
+
+
 
 #### Install
 
@@ -12,6 +22,12 @@ install **webpack**
 
 ```bash
 npm i webpack -D
+```
+
+To run webpack in console, you need **webpack-command**
+
+```bash
+npm i webpack-command -D
 ```
 
 

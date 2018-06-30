@@ -27,5 +27,17 @@
 * \* first line
 * \* second line
 
+## Links
+
+[[link](.example-link)](.example)
+
+
+
+[[inner-link][link-definition-name]][link-name]
+
+[link-definition-name]: .example-link
+
+
+
 
 
