@@ -7,7 +7,7 @@ module.exports = function(env) {
       path: path.resolve(__dirname),
       filename: "min-jquery.js"
     },
-    watch: env.mode === "development",
+    watch: env && env.mode !== "production",
     module: {
       rules: [
         {

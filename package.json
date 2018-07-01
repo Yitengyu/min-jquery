@@ -4,7 +4,8 @@
   "description": "a part of JQuery",
   "main": "min-jquery.js",
   "scripts": {
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "start:dev": "webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,9 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "webpack": "^4.13.0",
-    "webpack-command": "^0.3.1"
+    "webpack-cli": "^3.0.8",
+    "webpack-command": "^0.3.1",
+    "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {}
 }
