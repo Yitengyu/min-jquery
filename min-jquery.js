@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar test = function test() {\n  _classCallCheck(this, test);\n\n  this.msg = \"hello\";\n};\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nmodule.exports = function minJquery(seletor) {\n  this.nodeList = document.querySelectorAll(seletor);\n};\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

@@ -1,7 +1,7 @@
-class test {
-  constructor() {
-    this.msg = "hello"
-    console.log(this.msg)
-  }
+function minJquery(selector) {
+  console.log(selector)
+  this.nodeList = document.querySelectorAll(selector)
+  console.log(document.querySelectorAll(selector))
 }
-new test()
+
+window.$ = selector => new minJquery(selector)

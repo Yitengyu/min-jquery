@@ -114,3 +114,5 @@ scripts: {
 ```
 
 DevServer use *webpack.config.js* as configuration file, option *devServer* is provided to configure DevServer.
+
+**Notice**: The webpack-dev-server doesn't write to disk. It serves the result from memory.
