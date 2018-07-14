@@ -1,7 +1,13 @@
-function minJquery(selector) {
-  console.log(selector)
-  this.nodeList = document.querySelectorAll(selector)
-  console.log(document.querySelectorAll(selector))
-}
+import MyPromise from "./utils/MyPromise"
+import MinJquery from "./MinJquery"
+window.$ = selector => new MinJquery(selector)
 
-window.$ = selector => new minJquery(selector)
+window.MyPromise = MyPromise
+
+function timeout(ms) {
+  return new MyPromise(function(resolve, reject) {
+    setTimeout(resolve, ms, 'done');
+  });
+}
+timeout(1000).then(function(val) {console.log(val)})
+
